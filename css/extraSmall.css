@@ -16,7 +16,7 @@ html {
 
 header {
     position: relative;
-    height: 10vh;
+    height: 12vh;
     padding: 0 50%;
     border-bottom: 2px solid #eee;
     background-color: #222;
@@ -181,7 +181,6 @@ header a p {
 .our-work h3 {
     padding: 10% 5%;
     background-image: url(../img/wall-2507525_1280.jpg);
-    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
