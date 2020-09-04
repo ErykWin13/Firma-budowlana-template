@@ -108,7 +108,6 @@ header a p {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 52vh;
     margin-bottom: 5%;
     padding: 15% 10%;
     border: 3px solid goldenrod;
@@ -144,6 +143,7 @@ header a p {
 .advantages .all-advantages .second-advantage i,
 .advantages .all-advantages .third-advantage i,
 .advantages .all-advantages .fourth-advantage i {
+    margin-bottom: 10%;
     font-size: 6.2rem;
 }
 
@@ -151,6 +151,7 @@ header a p {
 .advantages .all-advantages .second-advantage h4,
 .advantages .all-advantages .third-advantage h4,
 .advantages .all-advantages .fourth-advantage h4 {
+    margin-bottom: 10%;
     font-size: 2.3rem;
     text-transform: uppercase;
 }

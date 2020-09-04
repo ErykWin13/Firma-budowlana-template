@@ -47,7 +47,6 @@
     .advantages .all-advantages .third-advantage,
     .advantages .all-advantages .fourth-advantage {
         flex-basis: 23%;
-        height: 50vh;
         margin: 0 1%;
         padding: 3% 1%;
     }
