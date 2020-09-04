@@ -1,0 +1,183 @@
+/* HEADER  */
+
+@media(min-width:768px) {
+    header a p {
+        padding: 5px 15px;
+        border-right: 3px solid white;
+        border-left: 3px solid white;
+        font-size: 3.6rem;
+    }
+}
+
+/* SECTION ABOUT US  */
+
+@media(min-width:768px) {
+    .about-us .info-about-us h1 {
+        font-size: 5rem;
+    }
+
+    .about-us .info-about-us p {
+        font-size: 2.4rem;
+    }
+}
+
+/* SECTION ADVANTAGES  */
+
+@media(min-width: 768px) {
+    .advantages h2 {
+        font-size: 4rem;
+    }
+
+    .advantages h3 {
+        font-size: 2.2rem;
+    }
+
+    .advantages .all-advantages .first-advantage,
+    .advantages .all-advantages .second-advantage,
+    .advantages .all-advantages .third-advantage,
+    .advantages .all-advantages .fourth-advantage {
+        height: 40vh;
+        padding: 10% 10%;
+    }
+
+    .advantages .all-advantages .first-advantage i,
+    .advantages .all-advantages .second-advantage i,
+    .advantages .all-advantages .third-advantage i,
+    .advantages .all-advantages .fourth-advantage i {
+        font-size: 8rem;
+    }
+
+    .advantages .all-advantages .first-advantage h4,
+    .advantages .all-advantages .second-advantage h4,
+    .advantages .all-advantages .third-advantage h4,
+    .advantages .all-advantages .fourth-advantage h4 {
+        font-size: 3rem;
+    }
+
+    .advantages .all-advantages .first-advantage p,
+    .advantages .all-advantages .second-advantage p,
+    .advantages .all-advantages .third-advantage p,
+    .advantages .all-advantages .fourth-advantage p {
+        font-size: 2rem;
+    }
+}
+
+/* SECTION OUR WORK  */
+
+@media(min-width:768px) {
+    .our-work h2 {
+        font-size: 4rem;
+    }
+
+    .our-work h3 {
+        padding: 10% 5%;
+        font-size: 2.2rem;
+    }
+}
+
+/* SECTION REALIZATIONS  */
+
+@media(min-width:768px) {
+    .realizations h2 {
+        font-size: 4rem;
+    }
+
+    .realizations h3 {
+        font-size: 2.2rem;
+    }
+
+    .realizations .all-realizations .realization img {
+        border-top: 3px solid goldenrod;
+        border-right: 3px solid goldenrod;
+        border-left: 3px solid goldenrod;
+    }
+
+    .realizations .all-realizations .realization button {
+        margin: 0 10%;
+        padding: 10px 15px;
+    }
+
+    .realizations .all-realizations .realization button a {
+        font-size: 2.5rem;
+    }
+}
+
+/* SECTION REVIEWS  */
+
+@media(min-width:768px) {
+    .reviews h2 {
+        font-size: 4rem;
+    }
+
+    .reviews .review .quot,
+    .reviews .review .client {
+        font-size: 2rem;
+    }
+
+    .reviews .review .client {
+        margin-top: 2%;
+        font-size: 1.5rem;
+    }
+}
+
+/* SECTION CONTACT  */
+
+@media(min-width:768px) {
+    .contact h2 {
+        font-size: 4rem;
+    }
+
+    .contact h3 {
+        font-size: 2.2rem;
+    }
+
+    .contact button {
+        padding: 10px 15px;
+        font-size: 2.5rem;
+    }
+
+    .contact .show-contact {
+        padding: 5% 2%;
+    }
+
+    .contact .show-contact .company-numbers h4,
+    .contact .show-contact .mail h4,
+    .contact .show-contact .phone h4 {
+        margin-bottom: 4%;
+        font-size: 2.4rem;
+    }
+
+    .contact .show-contact .company-numbers i,
+    .contact .show-contact .mail i,
+    .contact .show-contact .phone i {
+        margin-bottom: 4%;
+        font-size: 3rem;
+    }
+
+    .contact .show-contact .company-numbers p,
+    .contact .show-contact .mail p,
+    .contact .show-contact .phone p {
+        font-size: 1.8rem;
+    }
+}
+
+/* FOOTER  */
+@media(min-width:768px) {
+    footer p {
+        font-size: 1.5rem;
+    }
+}
+
+/* BACK TO TOP  */
+
+@media(min-width:768px) {
+    .back-to-top {
+        bottom: -60px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .back-to-top i {
+        font-size: 4.2rem;
+    }
+}

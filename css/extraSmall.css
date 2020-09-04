@@ -1,0 +1,427 @@
+/* font-family: 'Cantarell', sans-serif; */
+/* font-family: 'Thasadith', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Thasadith', sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* HEADER  */
+
+header {
+    position: relative;
+    height: 10vh;
+    padding: 0 50%;
+    border-bottom: 2px solid #eee;
+    background-color: #222;
+}
+
+header a p {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 10px;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+    border-radius: 7%;
+    font-size: 2.7rem;
+    color: white;
+    font-family: 'Great Vibes', cursive;
+}
+
+.wrapper {
+    background-color: #eee;
+    overflow: hidden;
+}
+
+/* SECTION ABOUT US  */
+
+.about-us {
+    width: 100%;
+    height: 90vh;
+    background-image: url(../img/sa-rapita-2483668_1920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: opacity .6s linear;
+}
+
+.about-us .info-about-us {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 5%;
+}
+
+.about-us .info-about-us h1 {
+    padding-bottom: 5%;
+    text-align: left;
+    font-size: 3.5rem;
+    color: #eee;
+}
+
+.about-us .info-about-us p {
+    text-align: justify;
+    font-size: 1.7rem;
+    color: #eee;
+    letter-spacing: 1px;
+}
+
+/* SECTION ADVANTAGES  */
+
+.advantages {
+    padding: 10% 10% 0 10%;
+}
+
+.advantages h2 {
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 3.2rem;
+    color: goldenrod;
+}
+
+.advantages h3 {
+    text-align: justify;
+    font-size: 1.8rem;
+}
+
+.advantages .all-advantages {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.advantages .all-advantages .first-advantage,
+.advantages .all-advantages .second-advantage,
+.advantages .all-advantages .third-advantage,
+.advantages .all-advantages .fourth-advantage {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 52vh;
+    margin-bottom: 5%;
+    padding: 15% 10%;
+    border: 3px solid goldenrod;
+    border-radius: 5%;
+    transition: .4s linear;
+}
+
+.advantages .all-advantages .first-advantage,
+.advantages .all-advantages .third-advantage {
+    left: -120%;
+}
+
+.advantages .all-advantages .second-advantage,
+.advantages .all-advantages .fourth-advantage {
+    right: -120%;
+}
+
+.advantages .all-advantages .first-advantage.active,
+.advantages .all-advantages .third-advantage.active {
+    left: 0;
+}
+
+.advantages .all-advantages .second-advantage.active,
+.advantages .all-advantages .fourth-advantage.active {
+    right: 0;
+}
+
+.advantages .all-advantages .fourth-advantage {
+    margin-bottom: 0;
+}
+
+.advantages .all-advantages .first-advantage i,
+.advantages .all-advantages .second-advantage i,
+.advantages .all-advantages .third-advantage i,
+.advantages .all-advantages .fourth-advantage i {
+    font-size: 6.2rem;
+}
+
+.advantages .all-advantages .first-advantage h4,
+.advantages .all-advantages .second-advantage h4,
+.advantages .all-advantages .third-advantage h4,
+.advantages .all-advantages .fourth-advantage h4 {
+    font-size: 2.3rem;
+    text-transform: uppercase;
+}
+
+.advantages .all-advantages .first-advantage p,
+.advantages .all-advantages .second-advantage p,
+.advantages .all-advantages .third-advantage p,
+.advantages .all-advantages .fourth-advantage p {
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 1.5;
+}
+
+/* SECTION OUR WORK  */
+
+.our-work {
+    padding: 10% 0 0 0;
+}
+
+.our-work h2 {
+    margin-bottom: 5%;
+    padding: 0 10%;
+    text-align: center;
+    font-size: 3.2rem;
+    color: goldenrod;
+}
+
+.our-work h3 {
+    padding: 10% 5%;
+    background-image: url(../img/wall-2507525_1280.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-size: 1.8rem;
+    color: #eee;
+}
+
+/* SECTION REALIZATIONS  */
+
+.realizations {
+    padding: 10% 5% 0 5%;
+    background-image: url(../img/tło.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.realizations h2 {
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 3.2rem;
+    color: goldenrod;
+}
+
+.realizations h3 {
+    text-align: justify;
+    font-size: 1.8rem;
+}
+
+.realizations .all-realizations {
+    display: flex;
+    flex-direction: column;
+}
+
+.realizations .all-realizations .realization {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 0 0 0;
+}
+
+.realizations .all-realizations .realization img {
+    width: 100%;
+    margin-bottom: 5%;
+    border-top: 2px solid goldenrod;
+    border-right: 2px solid goldenrod;
+    border-left: 2px solid goldenrod;
+}
+
+.realizations .all-realizations .realization button {
+    margin: 0 2%;
+    padding: 5px 10px;
+    border: 2px solid goldenrod;
+    background-color: #eee;
+    box-shadow: 0 0 4px #333;
+}
+
+.realizations .all-realizations .realization button a {
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+}
+
+/* SECTION REVIEWS  */
+
+.reviews {
+    padding: 10% 0 0 0;
+}
+
+.reviews h2 {
+    margin-bottom: 5%;
+    padding: 0 5%;
+    text-align: center;
+    font-size: 3.2rem;
+    color: goldenrod;
+}
+
+.reviews .review {
+    padding: 5%;
+}
+
+.reviews .review:nth-child(2) {
+    background-color: #2b354b;
+}
+
+.reviews .review:nth-child(3) {
+    background-color: #3c465c;
+}
+
+.reviews .review:nth-child(4) {
+    background-color: #4d576d;
+}
+
+.reviews .review:nth-child(5) {
+    background-color: #5e687e;
+}
+
+.reviews .review .quot,
+.reviews .review .client {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.reviews .review .client {
+    margin-top: 3%;
+    font-size: 1.2rem;
+}
+
+/* SECTION CONTACT  */
+
+.contact {
+    padding: 10% 0 0 0;
+}
+
+.contact h2 {
+    margin-bottom: 5%;
+    padding: 0 5% 0 5%;
+    text-align: center;
+    font-size: 3.2rem;
+    color: goldenrod;
+}
+
+.contact h3 {
+    padding: 0 5% 0 5%;
+    text-align: justify;
+    font-size: 1.8rem;
+}
+
+.contact button {
+    display: block;
+    margin: 10% auto 0 auto;
+    padding: 5px 10px;
+    border: 2px solid goldenrod;
+    background-color: #eee;
+    box-shadow: 0 0 4px #333;
+    font-size: 2rem;
+}
+
+.contact .show-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+    padding: 8% 2%;
+    background-color: #ddd;
+    opacity: 0;
+    transition: .3s linear;
+}
+
+.contact .show-contact.active {
+    opacity: 1;
+}
+
+.contact .show-contact .company-numbers,
+.contact .show-contact .mail,
+.contact .show-contact .phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 30%;
+    transform: rotateY(180deg);
+    transition: .3s linear;
+}
+
+.contact .show-contact.active .company-numbers,
+.contact .show-contact.active .mail,
+.contact .show-contact.active .phone {
+    transform: rotateY(360deg);
+}
+
+.contact .show-contact .company-numbers h4,
+.contact .show-contact .mail h4,
+.contact .show-contact .phone h4 {
+    margin-bottom: 3%;
+    font-size: 1.9rem;
+}
+
+.contact .show-contact .company-numbers i,
+.contact .show-contact .mail i,
+.contact .show-contact .phone i {
+    margin-bottom: 3%;
+    font-size: 2.2rem;
+}
+
+.contact .show-contact .company-numbers p,
+.contact .show-contact .mail p,
+.contact .show-contact .phone p {
+    font-size: 1.3rem;
+}
+
+/* FOOTER  */
+
+footer {
+    padding: 2%;
+    background-color: #222;
+}
+
+footer p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #eee;
+}
+
+/* BACK TO TOP  */
+
+.back-to-top {
+    position: fixed;
+    right: 2%;
+    bottom: -45px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #333;
+    color: #eee;
+    z-index: 1;
+    transition: .2s linear;
+}
+
+.back-to-top.active {
+    bottom: 7%;
+}
+
+.back-to-top i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3.3rem;
+}
+
+
+/* ANIMATIONS  */
+
+@keyframes opacity {
+    0% {
+        opacity: .5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

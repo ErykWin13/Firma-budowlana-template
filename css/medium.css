@@ -1,0 +1,203 @@
+/* HEADER  */
+
+@media(min-width:1024px) {
+    header a p {
+        padding: 10px 15px;
+        font-size: 4rem;
+    }
+}
+
+/* SECTION ABOUT US  */
+
+@media(min-width:1024px) {
+    .about-us .info-about-us h1 {
+        font-size: 6.2rem;
+    }
+
+    .about-us .info-about-us p {
+        font-size: 2.8rem;
+        line-height: 1.5;
+    }
+}
+
+/* SECTION ADVANTAGES  */
+
+@media(min-width:1024px) {
+    .advantages h2 {
+        font-size: 5.2rem;
+    }
+
+    .advantages h3 {
+        font-size: 2.3rem;
+        padding: 0 15%;
+    }
+
+    .advantages .all-advantages {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .advantages .all-advantages .first-advantage,
+    .advantages .all-advantages .second-advantage,
+    .advantages .all-advantages .third-advantage,
+    .advantages .all-advantages .fourth-advantage {
+        flex-basis: 46%;
+        padding: 10% 5%;
+    }
+
+    .advantages .all-advantages .first-advantage,
+    .advantages .all-advantages .second-advantage {
+        margin: 0 2% 2% 2%;
+    }
+
+    .advantages .all-advantages .third-advantage,
+    .advantages .all-advantages .fourth-advantage {
+        margin: 2% 2% 0 2%;
+    }
+
+    .advantages .all-advantages .first-advantage i,
+    .advantages .all-advantages .second-advantage i,
+    .advantages .all-advantages .third-advantage i,
+    .advantages .all-advantages .fourth-advantage i {
+        font-size: 8.5rem;
+    }
+
+    .advantages .all-advantages .first-advantage h4,
+    .advantages .all-advantages .second-advantage h4,
+    .advantages .all-advantages .third-advantage h4,
+    .advantages .all-advantages .fourth-advantage h4 {
+        font-size: 2.5rem;
+    }
+
+    .advantages .all-advantages .first-advantage p,
+    .advantages .all-advantages .second-advantage p,
+    .advantages .all-advantages .third-advantage p,
+    .advantages .all-advantages .fourth-advantage p {
+        font-size: 1.7rem;
+    }
+}
+
+/* SECTION OUR WORK  */
+
+@media(min-width:1024px) {
+    .our-work h2 {
+        font-size: 5.2rem;
+    }
+
+    .our-work h3 {
+        padding: 5% 5%;
+        font-size: 2.6rem;
+    }
+}
+
+/* SECTION REALIZATIONS  */
+
+@media(min-width:1024px) {
+    .realizations h2 {
+        font-size: 5.2rem;
+    }
+
+    .realizations h3 {
+        font-size: 2.3rem;
+        padding: 0 15%;
+    }
+
+    .realizations .all-realizations .realization img {
+        border-top: 4px solid goldenrod;
+        border-right: 4px solid goldenrod;
+        border-left: 4px solid goldenrod;
+    }
+
+    .realizations .all-realizations .realization button {
+        margin: 0 15%;
+    }
+
+    .realizations .all-realizations .realization button a {
+        font-size: 2.8rem;
+    }
+}
+
+/* SECTION REVIEWS  */
+
+@media(min-width:1024px) {
+    .reviews h2 {
+        font-size: 5.2rem;
+    }
+
+    .reviews .review .quot,
+    .reviews .review .client {
+        font-size: 2.2rem;
+    }
+
+    .reviews .review .client {
+        font-size: 1.6rem;
+    }
+}
+
+/* SECTION CONTACT  */
+
+@media(min-width:1024px) {
+    .contact h2 {
+        font-size: 5.2rem;
+    }
+
+    .contact h3 {
+        font-size: 2.3rem;
+        padding: 0 15%;
+    }
+
+    .contact button {
+        margin: 5% auto 0 auto;
+        font-size: 2.8rem;
+    }
+
+    .contact .show-contact {
+        margin-top: 5%;
+    }
+
+    .contact .show-contact .company-numbers h4,
+    .contact .show-contact .mail h4,
+    .contact .show-contact .phone h4 {
+        font-size: 2.7rem;
+    }
+
+    .contact .show-contact .company-numbers i,
+    .contact .show-contact .mail i,
+    .contact .show-contact .phone i {
+        font-size: 3.4rem;
+    }
+
+    .contact .show-contact .company-numbers p,
+    .contact .show-contact .mail p,
+    .contact .show-contact .phone p {
+        font-size: 2.1rem;
+    }
+}
+
+/* FOOTER  */
+
+
+@media(min-width:1024px) {
+    footer p {
+        font-size: 1.8rem;
+    }
+}
+
+/* BACK TO TOP  */
+
+@media(min-width:1024px) {
+    .back-to-top {
+        right: .5%;
+        bottom: -55px;
+        width: 55px;
+        height: 55px;
+    }
+
+    .back-to-top.active {
+        bottom: 9%;
+    }
+
+    .back-to-top i {
+        font-size: 4.2rem;
+    }
+}
