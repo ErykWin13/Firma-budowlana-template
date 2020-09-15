@@ -1,8 +1,7 @@
-Opis projektu "Firma budowlana template"
+Project description
 
-Jest to szkielet prostej strony internetowej prezentującej ofertę firmy ogólnobudowlanej. 
-Strona jest responsywna, posiada proste animacje utworzone za pomocą JavaScript, jQuery oraz wykorzystująca bibliotekę "Lightbox.js".
+Simple website written for the client in HTML, CSS and JavaScript.
 
-Twórca: Eryk Winnicki
-Data: 10.08.2020r.
-Technologie: HTML5, CSS, JavaScript
+Author: Eryk Winnicki
+Date: 10.08.2020r.
+Technologies: HTML5, CSS, JavaScript
